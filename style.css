@@ -1,0 +1,105 @@
+/* Use a modern, easy-to-read font */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6f7fa; /* Light teal background for the page */
+}
+
+/* Style the CTA banner with a background image and a light overlay */
+.cta-banner {
+  background: #2196b3 url('img/cta-bg.jpg') center center no-repeat;
+  background-size: cover;
+  color: #003b56;
+  padding: 60px 20px;
+  text-align: center;
+  background-blend-mode: overlay;
+  background-color: rgba(162, 216, 216, 0.9); /* Light overlay for readability */
+}
+
+/* Large main heading */
+.cta-banner h1 {
+  font-size: 2.5em; /* Make the heading large */
+  margin-bottom: 20px; /* Space below heading */
+  position: relative;
+  z-index: 1;
+  text-shadow: 1px 1px 3px rgba(14, 55, 77, 0.9); /* Subtle shadow for readability */
+}
+
+/* Short description */
+.cta-banner p {
+  font-size: 1.2em;
+  margin-bottom: 30px; /* Space below description */
+  position: relative;
+  z-index: 1;
+}
+
+/* Eye-catching CTA button */
+.cta-button {
+  background-color: #1de9b6; /* Bright teal for the button */
+  color: #1a237e; /* Dark blue text for contrast */
+  text-decoration: none; /* Remove underline */
+  padding: 15px 35px; /* Make button large and clickable */
+  border-radius: 5px; /* Slightly rounded corners */
+  border-color: #054434;
+  border-width: 2px;
+  font-size: 1.1em;
+  font-weight: bold;
+  display: inline-block; /* So padding works properly */
+  position: relative;
+  z-index: 1;
+  /* Add a simple hover effect */
+}
+
+.cta-button:hover {
+  background-color: #00bfae; /* Slightly darker teal on hover */
+  color: #ffffff; /* White text on hover */
+}
+
+/* Simple site header styling */
+.site-header {
+  background-color: #1976a7; /* Slightly darker blue for distinction */
+  color: #ffffff; /* White text for contrast */
+  text-align: center; /* Center the site name */
+  padding: 15px 0; /* Space above and below the text */
+  font-family: Arial, Helvetica, sans-serif; /* Match the main font */
+  font-size: 1.3em; /* Slightly larger text */
+  letter-spacing: 2px; /* Add space between letters for style */
+  margin: 0; /* Remove default margin */
+}
+
+/* Section below the banner with two columns */
+.info-section {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto; /* Center the section on the page */
+  background-color: #ffffff; /* Pure white */
+  border-radius: 8px; /* Slightly rounded corners */
+  box-shadow: 0 2px 8px rgba(33, 150, 179, 0.08); /* Soft shadow for depth */
+  padding: 20px;
+  overflow: hidden; /* Prevents image overflow */
+}
+
+/* Image on the left side */
+.info-image {
+  width: 48%; /* Take up about half the section */
+  float: left; /* Place image to the left */
+  border-radius: 6px; /* Rounded corners for the image */
+  margin-right: 4%; /* Space between image and text */
+  display: block;
+}
+
+/* Text on the right side */
+.info-text {
+  width: 48%; /* Take up about half the section */
+  float: left; /* Place text to the right of the image */
+  color: #1976a7; /* Use a blue from the palette */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Clear floats after the section */
+.info-section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
