@@ -23,7 +23,7 @@ body {
   margin-bottom: 20px; /* Space below heading */
   position: relative;
   z-index: 1;
-  text-shadow: 1px 1px 3px rgba(14, 55, 77, 0.9); /* Subtle shadow for readability */
+  text-shadow: 1px 1px 3px rgba(12, 56, 79, 0.9); /* Subtle shadow for readability */
 }
 
 /* Short description */
